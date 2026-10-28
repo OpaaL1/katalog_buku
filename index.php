@@ -41,7 +41,14 @@ $hasil = mysqli_query($koneksi, "SELECT * FROM buku ORDER BY id_buku DESC");
                 <td><?= htmlspecialchars($row['isbn'])?></td>
                 <td>
                     <a href="edit.php?id=<?= $row['id_buku'] ?>"><?= $t['edit'] ?></a> |
-                    <a href="hapus.php?id=<?= $row['id_buku'] ?>"><?= $t['hapus'] ?></a> 
+                    <form method="POST" action="hapus.php" style="display:inline"
+                        onsubmit="return confirm('<?= $t['konfirmasi_hapus'] ?>')">
+                        <input type="hidden" name="id" value="<?= $row['id_buku'] ?>">
+                        <button type="submit" style="background:none; border:none; color:blue; text-decoration:underline; cursor:pointer; padding:0; font:inherit;">
+                            <?= $t['hapus'] ?>
+                        </button>
+                    </form>
+                    
                 </td>
             </tr>
         <?php endwhile; ?>

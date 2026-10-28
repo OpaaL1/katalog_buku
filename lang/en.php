@@ -26,5 +26,6 @@
         'error_judul_panjang' => 'Book title is too long.',
         'error_isbn_duplikat' => 'This ISBN already exists.',
         'error_umum' => 'An unexpected error occurred. Please try again.',
+        'konfirmasi_hapus' => 'Are you sure you want to delete this book?',
     ];
 ?>
