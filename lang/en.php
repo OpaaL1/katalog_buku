@@ -18,6 +18,7 @@
         'kembali'        => 'Back',
         'selamat_datang' => 'Welcome',
         'aksi' => 'Action',
+        'ubah_buku' => 'Edit Book',
         'error_kosong' => 'Username and password are required.',
         'error_login'  => 'Incorrect username or password.',
         'error_kosong_form' => 'All fields are required.',
