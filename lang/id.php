@@ -18,6 +18,7 @@
         'kembali'        => 'Kembali',
         'selamat_datang' => 'Selamat datang',
         'aksi' => 'aksi',
+        'ubah_buku' => 'Ubah Buku',
         'error_kosong' => 'Nama pengguna dan kata sandi wajib diisi.',
         'error_login'  => 'Nama pengguna atau kata sandi salah.',
         'error_kosong_form' => 'Form wajib di isi',
