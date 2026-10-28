@@ -26,5 +26,6 @@
         'error_judul_panjang' => 'Judul buku terlalu panjang',
         'error_isbn_duplikat' => 'ISBN sudah terdaftar',
         'error_umum' => 'Terjadi kesalahan yang tidak terduga',
+        'konfirmasi_hapus' => 'Yakin ingin menghapus buku ini?',
     ];
 ?>
